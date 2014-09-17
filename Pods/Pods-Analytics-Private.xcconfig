@@ -1,0 +1,5 @@
+#include "Pods-Analytics.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1 ${PODS_ANALYTICS_GCC_PREPROCESSOR_DEFINITIONS}
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/Analytics" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/Analytics" "${PODS_ROOT}/Headers/Localytics-iOS-Client" "${PODS_ROOT}/Headers/Mixpanel" "${PODS_ROOT}/Headers/TRVSDictionaryWithCaseInsensitivity"
+OTHER_LDFLAGS = -ObjC ${PODS_ANALYTICS_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}

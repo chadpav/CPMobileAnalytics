@@ -1,0 +1,8 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#endif
+
+#import "Pods-environment.h"
+#define USE_ANALYTICS_LOCALYTICS 1
+#define USE_ANALYTICS_MIXPANEL 1
+#define USE_ANALYTICS_SEGMENTIO 1

@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 ANALYTICS_VERSION=1.7.1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/Analytics" "${PODS_ROOT}/Headers/Localytics-iOS-Client" "${PODS_ROOT}/Headers/Mixpanel" "${PODS_ROOT}/Headers/TRVSDictionaryWithCaseInsensitivity"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers" -isystem "${PODS_ROOT}/Headers/Analytics" -isystem "${PODS_ROOT}/Headers/Localytics-iOS-Client" -isystem "${PODS_ROOT}/Headers/Mixpanel" -isystem "${PODS_ROOT}/Headers/TRVSDictionaryWithCaseInsensitivity"
+OTHER_LDFLAGS = -ObjC -licucore -lsqlite3 -lz -framework Accelerate -framework CoreGraphics -framework CoreTelephony -framework Foundation -framework QuartzCore -framework SystemConfiguration -framework UIKit -weak_framework AdSupport -weak_framework CoreBlueTooth -weak_framework SystemConfiguration -weak_framework iAd
+PODS_ROOT = ${SRCROOT}/Pods

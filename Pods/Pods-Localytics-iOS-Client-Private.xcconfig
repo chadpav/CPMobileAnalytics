@@ -1,0 +1,5 @@
+#include "Pods-Localytics-iOS-Client.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/Localytics-iOS-Client" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/Analytics" "${PODS_ROOT}/Headers/Localytics-iOS-Client" "${PODS_ROOT}/Headers/Mixpanel" "${PODS_ROOT}/Headers/TRVSDictionaryWithCaseInsensitivity"
+OTHER_LDFLAGS = -ObjC ${PODS_LOCALYTICS_IOS_CLIENT_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
